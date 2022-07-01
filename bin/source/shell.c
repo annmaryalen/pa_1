@@ -470,7 +470,7 @@ char **tokenize_line_stdin(char *line)
 
   tokens[position] = NULL; 
 
-
+  current_number_tokens = position-1;
 
   
 
